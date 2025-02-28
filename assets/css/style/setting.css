@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+@font-face {
+  font-family: digikala;
+  src: url(../../fonts/iranyekanwebmedium.2d4f96e5.woff),
+  url(../../fonts/iranyekanwebregular.e31c09af.woff2),
+  url(../../fonts/cube-v8.1.woff),
+  url(../../fonts/iranyekanwebbold.cfb6e26c.woff2),
+  url(../../fonts/iranyekanwebextrabold.9346e9a2.woff)
+}
+
+
+body::-webkit-scrollbar{
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb{
+  width: 8px;
+  height: 5px;
+  background-color: rgb(203, 202, 202);
+}
+
+
+section.support>a{
+  margin-right:55px ;
+  margin-bottom: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(239,64,86);
+  padding: 12px;
+  border-radius: 50%;
+  object-position: center;
+  position: fixed;
+  bottom: 0;
+  right:0;
+  z-index: 2;
+}
+
+section.shopping>a{
+  margin-left:33px ;
+  margin-bottom: 40px;
+  width:130px;
+  height: 50px;
+  background-color: rgb(2,154,73);
+  color: white;
+  text-decoration: none;
+  font-family: digikala;
+  padding: 10px 12px;
+  padding-top: 8px;
+  border-radius: 26px;
+  object-position: center;
+  vertical-align: bottom;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+section.shopping>a>svg{
+  vertical-align: bottom;
+}
